@@ -1,3 +1,5 @@
+import { FadeInSection } from "../../components/fade-in";
+import { ProductCard } from "../../components/product-card";
 import Portrait from "../../assets/images/portrait-yellow.png";
 import Figma from "../../assets/icons/figma.png";
 import Html from "../../assets/icons/html.png";
@@ -7,6 +9,9 @@ import Javascript from "../../assets/icons/js.png";
 import Wordpress from "../../assets/icons/wordpress.png";
 import Bootstrap from "../../assets/icons/bootstrap.png";
 import React from "../../assets/icons/react.png";
+import Auctionary from "../../assets/images/auctionary.png";
+import Shoply from "../../assets/images/shoply.jpg";
+import Holidaze from "../../assets/images/holidaze.webp";
 
 function Home() {
   return (
@@ -62,6 +67,48 @@ function Home() {
             </a>
           </p>
         </div>
+      </section>
+      <section id="projects">
+        <h2 className="text-center my-5">Projects</h2>
+        <FadeInSection>
+          <ProductCard
+            image={Auctionary}
+            alt={"Screenshot of Auctionary front page"}
+            title={"Auctionary"}
+            course={"Semester Project 2"}
+            description={
+              "Our task for out second semester project was to make an auction website using the skills we'd learned the past three semesters. It's created with HTML, vanilla JS and Bootstrap."
+            }
+            github={"https://github.com/mar-ols/semester_project_2-auctionary"}
+            live={"https://wondrous-kangaroo-09982e.netlify.app"}
+          />
+        </FadeInSection>
+        <FadeInSection>
+          <ProductCard
+            image={Shoply}
+            alt={"Screenshot of Shoply front page"}
+            title={"Shoply"}
+            course={"Javascript Frameworks"}
+            description={
+              "This was our first project learning about javascript frameworks. We were given an API with a selection of products to create an e-commerce site built with our styling solution of choice and React."
+            }
+            github={"https://github.com/mar-ols/react-shoply"}
+            live={"https://tubular-meringue-31e7bc.netlify.app"}
+          />
+        </FadeInSection>
+        <FadeInSection>
+          <ProductCard
+            image={Holidaze}
+            alt={"Screenshot of Holidaze front page"}
+            title={"Holidaze"}
+            course={"Project Exam 2"}
+            description={
+              "Holidaze was our final exam for the second year of our studies. We were to create a booking site using the provided API with venues created by us and other students and putting into practice everything we'd been taught. It was built with React and Bootstrap."
+            }
+            github={"https://github.com/mar-ols/holidaze"}
+            live={"https://holidaze-pe2-marols.netlify.app"}
+          />
+        </FadeInSection>
       </section>
     </main>
   );
