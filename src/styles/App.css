@@ -48,3 +48,78 @@ footer::before {
 .icon {
   max-width: 25px;
 }
+
+h1 {
+  font-size: 1rem;
+}
+
+.intro {
+  padding: 30px;
+}
+
+.portrait {
+  height: 250px;
+  max-width: 250px;
+}
+
+.intro-text {
+  height: 250px;
+  max-width: 250px;
+  overflow-y: scroll;
+  scrollbar-color: #edd923 #fff;
+  scrollbar-width: thin;
+}
+
+.logos {
+  max-width: 70px;
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid #edd923;
+  border-radius: 5px;
+}
+
+@media (min-width: 320px) {
+  .portrait {
+    height: 300px;
+    max-width: 300px;
+  }
+
+  .intro-text {
+    height: 300px;
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .portrait {
+    height: 400px;
+    max-width: 400px;
+  }
+
+  .intro-text {
+    height: 400px;
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+  .intro {
+    margin: 150px auto;
+  }
+
+  .portrait {
+    height: 400px;
+    max-width: 400px;
+  }
+
+  .intro-text {
+    height: 350px;
+    max-width: fit-content;
+  }
+}
+
+@media (min-width: 1400px) {
+  .intro {
+    max-width: 1500px;
+  }
+}
