@@ -69,12 +69,8 @@ h1 {
   scrollbar-width: thin;
 }
 
-.logos {
-  max-width: 70px;
-  padding: 10px;
+.badges {
   margin: 5px;
-  border: 2px solid #edd923;
-  border-radius: 5px;
 }
 
 .product-card {

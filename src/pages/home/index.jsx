@@ -1,14 +1,6 @@
 import { FadeInSection } from "../../components/fade-in";
 import { ProductCard } from "../../components/product-card";
 import Portrait from "../../assets/images/portrait-yellow.png";
-import Figma from "../../assets/icons/figma.png";
-import Html from "../../assets/icons/html.png";
-import Css from "../../assets/icons/css.png";
-import Git from "../../assets/icons/git.png";
-import Javascript from "../../assets/icons/js.png";
-import Wordpress from "../../assets/icons/wordpress.png";
-import Bootstrap from "../../assets/icons/bootstrap.png";
-import React from "../../assets/icons/react.png";
 import Auctionary from "../../assets/images/auctionary.webp";
 import Shoply from "../../assets/images/shoply.webp";
 import Holidaze from "../../assets/images/holidaze.webp";
@@ -33,14 +25,46 @@ function Home() {
             honing my skills in the following tools and technologies:
           </p>
           <div className="d-flex flex-wrap justify-content-around">
-            <img src={Figma} alt="Figma logo" className="logos" />
-            <img src={Html} alt="Html logo" className="logos" />
-            <img src={Css} alt="Css logo" className="logos" />
-            <img src={Git} alt="Git logo" className="logos" />
-            <img src={Javascript} alt="Javscript logo" className="logos" />
-            <img src={Wordpress} alt="Wordpress logo" className="logos" />
-            <img src={Bootstrap} alt="Bootstrap logo" className="logos" />
-            <img src={React} alt="React logo" className="logos" />
+            <img
+              src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+              alt="Html badge"
+              className="badges"
+            />
+            <img
+              src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+              alt="Css badge"
+              className="badges"
+            />
+            <img
+              src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"
+              alt="Javscript badge"
+              className="badges"
+            />
+            <img
+              src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"
+              alt="Bootstrap badge"
+              className="badges"
+            />
+            <img
+              src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
+              alt="React badge"
+              className="badges"
+            />
+            <img
+              src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"
+              alt="Figma badge"
+              className="badges"
+            />
+            <img
+              src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"
+              alt="Git badge"
+              className="badges"
+            />
+            <img
+              src="https://img.shields.io/badge/Wordpress-21759B?style=for-the-badge&logo=wordpress&logoColor=white"
+              alt="Wordpress badge"
+              className="badges"
+            />
           </div>
           <p className="mt-3">
             One of the things I love most about frontend development is how it
