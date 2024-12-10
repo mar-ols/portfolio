@@ -9,14 +9,14 @@ import Javascript from "../../assets/icons/js.png";
 import Wordpress from "../../assets/icons/wordpress.png";
 import Bootstrap from "../../assets/icons/bootstrap.png";
 import React from "../../assets/icons/react.png";
-import Auctionary from "../../assets/images/auctionary.png";
-import Shoply from "../../assets/images/shoply.jpg";
+import Auctionary from "../../assets/images/auctionary.webp";
+import Shoply from "../../assets/images/shoply.webp";
 import Holidaze from "../../assets/images/holidaze.webp";
 
 function Home() {
   return (
     <main className="fw-light">
-      <section className="intro d-lg-flex align-items-end">
+      <section id="about" className="intro d-lg-flex align-items-end">
         <div className="intro-image text-center">
           <img
             src={Portrait}
