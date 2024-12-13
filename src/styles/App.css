@@ -28,7 +28,6 @@ header {
 footer {
   position: relative;
   overflow: hidden;
-  top: 100vh;
 }
 
 footer::before {
@@ -47,4 +46,106 @@ footer::before {
 
 .icon {
   max-width: 25px;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+.intro {
+  padding: 30px;
+}
+
+.portrait {
+  height: 250px;
+  max-width: 250px;
+}
+
+.intro-text {
+  height: 250px;
+  max-width: 250px;
+  overflow-y: scroll;
+  scrollbar-color: #edd923 #fff;
+  scrollbar-width: thin;
+}
+
+.badges {
+  margin: 5px;
+}
+
+.product-card {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-img-top {
+  border: 1px solid #000;
+  border-radius: 5px;
+  max-width: 400px;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 1200ms ease-out, transform 600ms ease-out,
+    visibility 1200ms ease-out;
+  will-change: opacity, transform, visibility;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+@media (min-width: 320px) {
+  .portrait {
+    height: 300px;
+    max-width: 300px;
+  }
+
+  .intro-text {
+    height: 300px;
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .portrait {
+    height: 400px;
+    max-width: 400px;
+  }
+
+  .intro-text {
+    height: 400px;
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+  .intro {
+    margin: 150px auto;
+  }
+
+  .portrait {
+    height: 400px;
+    max-width: 400px;
+  }
+
+  .intro-text {
+    height: 350px;
+    max-width: fit-content;
+  }
+}
+
+@media (min-width: 1400px) {
+  .intro {
+    max-width: 1500px;
+  }
 }
